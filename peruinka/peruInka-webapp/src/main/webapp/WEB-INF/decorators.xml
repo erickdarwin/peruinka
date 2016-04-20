@@ -1,0 +1,18 @@
+<decorators defaultdir="/decorator"> 
+    <decorator name="general" page="general.jsp"> 
+        <pattern>/home/*</pattern>
+        <pattern>/home1/*</pattern>
+        <pattern>/home2/*</pattern>
+        <pattern>/home3/*</pattern>
+        <pattern>/home4/*</pattern>
+        
+    </decorator>
+
+    <decorator name="popup" page="popup.jsp">
+        <pattern>/popup/*</pattern>
+    </decorator>
+    <decorator name="upload" page="upload.jsp">
+        <pattern>/upload/*</pattern>
+    </decorator>
+
+</decorators> 
